@@ -88,7 +88,7 @@ java Main
 
 ---
 
-###  Tifanny Ekesiani
+###  Tiffany Ekesiani
 
 <a href="https://github.com/TiffanyEkesiani" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-C71585?style=for-the-badge&logo=github&logoColor=white">
