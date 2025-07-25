@@ -11,11 +11,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Tarefas> tarefas = new ArrayList<>(); // Lista que armazena todas as tarefas
 
-        tarefas.add(new Personal("Marcar consulta check up" , "Pendente" , LocalDate.of(2025, 8,4)));
-        tarefas.add(new Study("Finalizar projeto Java" , "Concluido", LocalDate.of(2025, 7, 23)));
-        tarefas.add(new Work("Relatorio de vendas", "Pendente", LocalDate.of(2025, 7,10)));
-
-
         int opcao; // Variável para armazenar a opção do menu
 
         // Estrutura de repetição principal do programa (menu)
@@ -30,7 +25,7 @@ public class Main {
             System.out.println("5 - Tarefas em andamento");
             System.out.println("6 - Tarefas concluídas");
             System.out.println("0 - Sair");
-            System.out.println("---------------");
+            System.out.println("--------------------------------");
             System.out.print("Escolha uma opção: ");
 
             // Validação da entrada numérica do usuário
